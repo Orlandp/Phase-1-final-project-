@@ -1,0 +1,83 @@
+{
+    "energyAudits": [ 
+        {
+        "id": 1,
+        "title" : "What is an energy audit",
+        "details" : "An Energy Audit is a process that provides a systematic analysis of energy use and energy consumption within a defined energy audit scope, in order to identify, quantify, and report on the opportunities for improved energy performance.",
+        "cost" : "The Energy audit majorly when installed goes from ksh500,000 - 450,000 also it depends on the size of the house" ,
+        "benefits" : "This allows one or an institution to have improvements once recommended"
+
+    },
+    {
+        "id": 2,
+        "title" : "Steps on an Energy audit",
+        "details" : "Step 1:There is a General Audit done ,Step 2: A walkthrough is done, Step 3: Investment grade audit is done",
+        "content" : "1. Data collection on energy usage. 2. Building inspection. 3. Analysis of energy flows and losses. 4. Recommendations for improvements." ,
+        "cost-saving" : "This enables a user to have reduction of energy management system of about 25%",
+        "duration" : "This takes 5-6 hours of installation(also depends on the area size of the compound or the field)"
+
+    },
+    {
+        "id": 3,
+        "title" : "To have a professional energy auditor",
+        "details" : "Hiring a professional auditor provides a more thorough analysis of potential energy savings, identifying hidden inefficiencies such as air leaks, poor insulation, and inefficient appliances.",
+        "quality" : "The quality assurance of is certified by ERC and other government regulators",
+        "recommendations" : "Upgrade insulation, seal air leaks, replace outdated HVAC systems"
+
+    }
+],
+    "solar energy " :[{
+        "id" : 1,
+        "title" : "What is a Solar Energy?",
+        "details" : "Solar Energy is a process by which sun is converted through panels and batterties to be electricity",
+        "content" : "The process allows green energy to take place can save up to 30% of energy used ",
+        "image-url" : "https://images.app.goo.gl/neBqqe1GZPwqvNiv7"     
+    },
+    {
+        "id" : 2,
+        "title": "How solar panels work?",
+        "content" : "They convert  sunlight into electricity using photovoltaic (PV) cells, which generate direct current (DC). This DC is converted to alternating current (AC) by an inverter, making it usable in homes, industries hospitals and buildings.",
+        "efficiency" : "It converts electricity at a rate of 15-20% through the panels towards the battery"
+    },
+    {
+        "id" : 3,
+        "title" : "Types of solar energy",
+        "details" : "The Website will enable you as a client to get the information you need granteed on the tyoes of solar",
+        "content" : "There are three direct Solar Energy  1.Off the grid, 2.Direct solar energy, 3.Grid-tied system",
+        "url" : "nnasol.com/solar-thermal-vs-solar-pv-a-comprehensive-comparison/"
+
+    }   
+],
+    "energy projects" :[{
+        "id" :1,
+        "title" :"This is to show a company that deals in Solar installation energy and also links to youtube to show you how to learn it",
+        "details" :"The Eenovators company majorly deals with solar installation and guide users on the 'why?' question and how solar relates to the world by saving energy",
+        "url" : "https://eenovators.com/solar-solutions-2/"
+    },
+    {
+        "id" :2,
+        "title" : "Youtube Channel",
+        "details" :"This gives you content based on how one can get more information on YouTube channel also it shows other varieties of energy solutions",
+        "url" : "http://www.youtube.com/@eenovatorslimited"
+    }
+],
+    "energy saving tips":[{
+        "id" : 1,
+        "tip" : "using LED lights",
+        "content" : "By having using LED light blub this can ensure 90% saving within your costs within households",
+        "potential-saving" : "It can enable savings of 500ksh a month"
+    },
+    {
+        "id" : 2,
+        "tip" : "By switching off sockets and bulbs when not in use",
+        "content" : "This enables the user to save 75% within his household or service area and reduces machines being on operation while not in use",
+        "potential-saving" : "It can enable savings of 250ksh a month "
+    },
+    {
+        "id" : 3,
+        "tip" : "Going Green",
+        "content" : "Having most of your energy converted by windmills and solar energy to save on costs and also save on the enviroment ",
+        "potential-saving" : "It can almost 1200ksh on households and on big insitutions can expand and have more energy reduction being used from fuels"
+    }
+]
+}
