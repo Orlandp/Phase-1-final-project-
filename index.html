@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Management</title>
+    <link rel="stylesheet" href="./style.css"> <!--link to the CSS file-->
+    <script defer src="./index.js"></script> <!--link the JavaScript file-->
+</head>
 
-        <meta charset="UTF-8">
-        <meta name = "viewpoint", content="width=device-width, initial-scale=1.0">
-        <title>Energy Management</title>
-        <link rel= "stylesheet" href="./style.css"> <!--link to the css document-->
-        <script src="./index.js"></script><!-- link the javascript document-->
+<body>
+    <h1>Solar Energy and Energy Solutions</h1> <!-- Heading -->
 
-    </head>
-    <body>
-        <h1>Solar energy and Energy solutions </h1> <!---heading-->
-    </body>
+     <!-- User Details Form -->
+     <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit" id="submitForm">Submit</button>
+    </form>
+    
+    <button id="loadData">Load Data</button> <!-- Button to load data -->
+
+    <!-- Section to display fetched data -->
+    <div id="energy-audits"></div>
+    <div id="solar-energy"></div>
+    <div id="energy-projects"></div>
+    <div id="energy-saving-tips"></div>
+    
+</body>
 
 </html>

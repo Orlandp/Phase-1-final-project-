@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form Styling */
+form {
+    border: 2px solid #fff;
+    padding: 20px;
+    background-color: rgb(34,85,102);
+    margin-bottom: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+/* Button Styling */
+#loadData {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container Styling for Data Sections */
+#energy-audits, #solar-energy, #energy-projects, #energy-saving-tips {
+    margin: 20px 0;
+    border: 2px solid blue;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+/* Section Titles */
+h2 {
+    color: blue;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+/* Individual Entries */
+div > div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Headings inside data sections */
+h3 {
+    color: black;
+    margin: 0;
+}
+
+p {
+    color: black;
+    margin: 5px 0;
+}

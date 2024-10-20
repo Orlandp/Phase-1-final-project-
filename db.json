@@ -13,16 +13,16 @@
         "title" : "Steps on an Energy audit",
         "details" : "Step 1:There is a General Audit done ,Step 2: A walkthrough is done, Step 3: Investment grade audit is done",
         "content" : "1. Data collection on energy usage. 2. Building inspection. 3. Analysis of energy flows and losses. 4. Recommendations for improvements." ,
-        "cost-saving" : "This enables a user to have reduction of energy management system of about 25%",
-        "duration" : "This takes 5-6 hours of installation(also depends on the area size of the compound or the field)"
+        "cost" : "This enables a user to have reduction of energy management system of about 25%",
+        "benefits" : "This takes 5-6 hours of installation(also depends on the area size of the compound or the field)"
 
     },
     {
         "id": 3,
         "title" : "To have a professional energy auditor",
         "details" : "Hiring a professional auditor provides a more thorough analysis of potential energy savings, identifying hidden inefficiencies such as air leaks, poor insulation, and inefficient appliances.",
-        "quality" : "The quality assurance of is certified by ERC and other government regulators",
-        "recommendations" : "Upgrade insulation, seal air leaks, replace outdated HVAC systems"
+        "cost" : "The quality assurance of is certified by ERC and other government regulators it can be around 200k-100k to acquire services",
+        "benefits" : "Upgrade insulation, seal air leaks, replace outdated HVAC systems"
 
     }
 ],
