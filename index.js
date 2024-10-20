@@ -1,21 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
     const userForm = document.getElementById('userForm');
     const loadDataButton = document.getElementById('loadData');
+    const userDetailsContainer = document.getElementById('userDetails');
 
     // Handle form submission and enable the "Load Data" button
     userForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent the form from refreshing the page
+        event.preventDefault(); // Prevent form refresh
 
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
+        const rating = document.getElementById('rating').value;
 
         // Validate the form
-        if (name && email) {
+        if (name && email && rating) {
             // If the form is valid, enable the "Load Data" button
             loadDataButton.disabled = false;
-            alert(`Hello ${name}, you can now load the data!`);
+            // Show user details on the page
+            userDetailsContainer.innerHTML = `
+                <h2>User Details</h2>
+                <p><strong>Name:</strong> ${name}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Rating:</strong> ${rating}/10</p>
+            `;
         } else {
-            alert('Please fill in both fields.');
+            alert('Please fill in all the fields.');
         }
     });
 
